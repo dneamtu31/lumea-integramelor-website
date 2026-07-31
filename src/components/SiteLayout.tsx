@@ -43,6 +43,7 @@ export default function SiteLayout() {
           <nav className="flex items-center gap-2">
             <NavItem to="/" label="Home" />
             <NavItem to="/privacy" label="Privacy Policy" />
+            <NavItem to="/terms" label="Terms" />
           </nav>
         </div>
       </header>

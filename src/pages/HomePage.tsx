@@ -25,7 +25,7 @@ export default function HomePage() {
           </div>
 
           <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Privacy Policy
+            Legal
           </h1>
 
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -35,7 +35,12 @@ export default function HomePage() {
             >
               View Privacy Policy
             </Link>
-
+            <Link
+              to="/terms"
+              className="inline-flex w-fit items-center justify-center rounded-2xl border border-black/10 bg-white px-5 py-3 text-sm font-bold text-brand-ink transition hover:bg-black/5"
+            >
+              View Terms & Conditions
+            </Link>
           </div>
         </div>
       </section>
