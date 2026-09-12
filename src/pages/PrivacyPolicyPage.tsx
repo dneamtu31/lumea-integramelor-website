@@ -88,14 +88,14 @@ export default function PrivacyPolicyPage() {
         eyebrow: "Politica de confidențialitate",
         title: "Politica de confidențialitate pentru Lumea integramelor",
         updated: "Ultima actualizare",
-        date: "31.07.2026",
+        date: "12.09.2026",
       };
     }
     return {
       eyebrow: "Privacy Policy",
       title: "Privacy Policy for Lumea integramelor",
       updated: "Last updated",
-      date: "July 31, 2026",
+      date: "September 12, 2026",
     };
   }, [lang]);
 
@@ -172,6 +172,11 @@ export default function PrivacyPolicyPage() {
                 informații tehnice transmise odată cu mesajul (ex. versiunea aplicației
                 și tipul de platformă: iOS/Android/web).
               </Bullet>
+              <Bullet>
+                Date legate de achiziții (doar dacă faci una): ce produse deții și
+                identificatorii tranzacțiilor deja procesate, păstrate local pe dispozitiv.
+                Plata în sine este gestionată de magazin — vezi secțiunea 6.
+              </Bullet>
             </Section>
 
             <Section title="3) Scopurile prelucrării">
@@ -222,7 +227,24 @@ export default function PrivacyPolicyPage() {
               />
             </Section>
 
-            <Section title="6) Temei legal (pentru UE/SEE – GDPR)">
+            <Section title="6) Achiziții în aplicație">
+              <P>
+                Dacă faci o achiziție, plata este procesată integral de{" "}
+                <span className="font-bold">Apple App Store</span> sau{" "}
+                <span className="font-bold">Google Play</span>. Nu primim, nu vedem și nu
+                stocăm datele tale de plată (card, adresă de facturare) și nu îți
+                cunoaștem identitatea din magazin.
+              </P>
+              <P>
+                Pe dispozitiv salvăm local doar ce produse deții, pentru a activa
+                beneficiile fără conexiune la internet. La pornirea aplicației întrebăm
+                magazinul dacă achizițiile sunt în continuare valide, astfel încât o
+                achiziție restituită sau anulată să nu rămână activă. Această verificare
+                nu implică servere ale noastre.
+              </P>
+            </Section>
+
+            <Section title="7) Temei legal (pentru UE/SEE – GDPR)">
               <P>În funcție de context, prelucrarea poate avea la bază:</P>
               <Bullet>Interes legitim (securitate, prevenirea fraudei, îmbunătățiri, măsurare).</Bullet>
               <Bullet>
@@ -237,7 +259,7 @@ export default function PrivacyPolicyPage() {
               </Bullet>
             </Section>
 
-            <Section title="7) Unde sunt stocate datele">
+            <Section title="8) Unde sunt stocate datele">
               <Bullet>Local pe telefon: progres și setări (nu le încărcăm pe serverele noastre).</Bullet>
               <Bullet>
                 Prin furnizori terți: datele asociate reclamelor pot fi procesate de Google
@@ -247,7 +269,7 @@ export default function PrivacyPolicyPage() {
               </Bullet>
             </Section>
 
-            <Section title="8) Cât timp păstrăm datele">
+            <Section title="9) Cât timp păstrăm datele">
               <Bullet>
                 Date locale: rămân pe dispozitiv până când ștergi aplicația sau ștergi datele aplicației.
               </Bullet>
@@ -263,7 +285,7 @@ export default function PrivacyPolicyPage() {
               </Bullet>
             </Section>
 
-            <Section title="9) Opțiuni și control">
+            <Section title="10) Opțiuni și control">
               <Bullet>
                 Poți controla anumite opțiuni legate de reclame (de ex. publicitate personalizată) din setările dispozitivului și/sau prin mecanismele afișate de platformă/Google
                 (acolo unde sunt disponibile).
@@ -279,13 +301,13 @@ export default function PrivacyPolicyPage() {
               </P>
             </Section>
 
-            <Section title="10) Securitate">
+            <Section title="11) Securitate">
               <P>
                 Aplicăm măsuri rezonabile pentru protejarea datelor. Totuși, nicio metodă de stocare sau transmitere nu este complet sigură.
               </P>
             </Section>
 
-            <Section title="11) Modificări ale politicii">
+            <Section title="12) Modificări ale politicii">
               <P>
                 Putem actualiza această Politică. Versiunea actualizată va fi disponibilă în aplicație.
               </P>
@@ -335,6 +357,11 @@ export default function PrivacyPolicyPage() {
                 information sent with the message (e.g., app version and platform type:
                 iOS/Android/web).
               </Bullet>
+              <Bullet>
+                Purchase-related data (only if you make one): which products you own and
+                identifiers of already processed transactions, stored locally on the
+                device. The payment itself is handled by the store — see section 6.
+              </Bullet>
             </Section>
 
             <Section title="3) Purposes of processing">
@@ -376,7 +403,24 @@ export default function PrivacyPolicyPage() {
               />
             </Section>
 
-            <Section title="6) Legal basis (EU/EEA – GDPR)">
+            <Section title="6) In-app purchases">
+              <P>
+                If you make a purchase, payment is processed entirely by the{" "}
+                <span className="font-bold">Apple App Store</span> or{" "}
+                <span className="font-bold">Google Play</span>. We do not receive, see, or
+                store your payment data (card, billing address) and we do not know your
+                store identity.
+              </P>
+              <P>
+                On the device we store locally only which products you own, to activate
+                the benefits without an internet connection. When the App starts, we ask
+                the store whether purchases are still valid, so that a refunded or
+                cancelled purchase does not remain active. This check does not involve our
+                servers.
+              </P>
+            </Section>
+
+            <Section title="7) Legal basis (EU/EEA – GDPR)">
               <P>Depending on context, processing may be based on:</P>
               <Bullet>Legitimate interests (security, fraud prevention, improvements, measurement).</Bullet>
               <Bullet>
@@ -389,7 +433,7 @@ export default function PrivacyPolicyPage() {
               </Bullet>
             </Section>
 
-            <Section title="7) Where data is stored">
+            <Section title="8) Where data is stored">
               <Bullet>On your phone: progress and settings (we do not upload them to our servers).</Bullet>
               <Bullet>
                 Third-party providers: ad-related data may be processed by Google (and
@@ -399,7 +443,7 @@ export default function PrivacyPolicyPage() {
               </Bullet>
             </Section>
 
-            <Section title="8) How long we keep data">
+            <Section title="9) How long we keep data">
               <Bullet>Local data: remains on your device until you uninstall the App or clear the App’s data.</Bullet>
               <Bullet>Google AdMob processed data: according to Google’s retention periods and policies.</Bullet>
               <Bullet>
@@ -410,7 +454,7 @@ export default function PrivacyPolicyPage() {
               </Bullet>
             </Section>
 
-            <Section title="9) Choices and control">
+            <Section title="10) Choices and control">
               <Bullet>
                 You can control certain ad options (e.g., personalized ads) from your device settings and/or via platform/Google mechanisms (where available).
               </Bullet>
@@ -423,13 +467,13 @@ export default function PrivacyPolicyPage() {
               </P>
             </Section>
 
-            <Section title="10) Security">
+            <Section title="11) Security">
               <P>
                 We apply reasonable measures to protect data. However, no method of storage or transmission is completely secure.
               </P>
             </Section>
 
-            <Section title="11) Changes to this policy">
+            <Section title="12) Changes to this policy">
               <P>
                 We may update this Policy from time to time. The updated version will be available in the App and on this page.
               </P>

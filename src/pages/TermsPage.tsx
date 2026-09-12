@@ -66,14 +66,14 @@ export default function TermsPage() {
         eyebrow: "Termeni și condiții",
         title: "Termeni și condiții pentru Lumea integramelor",
         updated: "Ultima actualizare",
-        date: "31.07.2026",
+        date: "12.09.2026",
       };
     }
     return {
       eyebrow: "Terms & Conditions",
       title: "Terms & Conditions for Lumea integramelor",
       updated: "Last updated",
-      date: "July 31, 2026",
+      date: "September 12, 2026",
     };
   }, [lang]);
 
@@ -162,6 +162,10 @@ export default function TermsPage() {
                 disponibilitatea, acuratețea sau calitatea produselor/serviciilor
                 promovate de terți.
               </P>
+              <P>
+                Reclamele pot fi eliminate definitiv printr-o achiziție în aplicație
+                (vezi secțiunea 7).
+              </P>
             </Section>
 
             <Section title="6) Formular de contact">
@@ -179,15 +183,42 @@ export default function TermsPage() {
               </P>
             </Section>
 
-            <Section title="7) Achiziții în aplicație (posibile în viitor)">
+            <Section title="7) Achiziții în aplicație">
               <P>
-                În prezent, Aplicația{" "}
-                <span className="font-bold">nu include achiziții în aplicație</span>. Dacă
-                vor fi introduse (de ex. eliminare reclame, conținut/pachete premium),
-                acestea vor fi procesate prin{" "}
-                <span className="font-bold">Apple App Store</span> și/sau{" "}
-                <span className="font-bold">Google Play</span> și vor fi supuse termenilor
-                și politicilor acelor platforme (inclusiv rambursări).
+                Aplicația oferă achiziții opționale cu plată unică, fără abonament:
+                pachete de indicii, eliminarea reclamelor, deblocarea tuturor integramelor
+                și pachetul Premium (care le include pe toate). Aplicația rămâne
+                utilizabilă gratuit, fără nicio achiziție.
+              </P>
+              <P>
+                Plățile sunt procesate exclusiv de{" "}
+                <span className="font-bold">Apple App Store</span> sau{" "}
+                <span className="font-bold">Google Play</span>, în funcție de magazinul
+                din care ai instalat Aplicația. Noi nu primim și nu stocăm datele tale de
+                plată. Prețurile afișate includ TVA și pot diferi în funcție de țară.
+              </P>
+              <P>
+                Produsele cu efect permanent sunt legate de contul tău de magazin, nu de
+                dispozitiv. Dacă schimbi telefonul sau reinstalezi Aplicația, le poți
+                reactiva cu Setări → Restaurează achizițiile, folosind același cont.
+                Indiciile cumpărate sunt consumabile: se adaugă în soldul de pe
+                dispozitivul curent, nu expiră, dar odată folosite nu pot fi restaurate.
+              </P>
+              <P>
+                <span className="font-bold">Dreptul de retragere.</span> Conținutul digital
+                îți este livrat imediat după confirmarea plății. Prin finalizarea
+                achiziției soliciți în mod expres începerea imediată a executării și
+                confirmi că îți pierzi dreptul legal de retragere în 14 zile pentru partea
+                deja executată.
+              </P>
+              <P>
+                <span className="font-bold">Restituiri.</span> Cererile de restituire se
+                soluționează conform politicilor magazinului prin care ai plătit. Pe
+                Google Play, după 48 de ore de la achiziție, ne poți contacta direct pe
+                noi: restituim integral produsele cu efect permanent și pachetele de
+                indicii neconsumate, solicitate în termen de 14 zile de la achiziție. Nu
+                restituim indiciile deja folosite în joc. Dacă o achiziție este restituită
+                sau anulată, beneficiul asociat este dezactivat în Aplicație.
               </P>
             </Section>
 
@@ -294,6 +325,9 @@ export default function TermsPage() {
                 availability, accuracy, or quality of products/services promoted by third
                 parties.
               </P>
+              <P>
+                Ads can be permanently removed via an in-app purchase (see section 7).
+              </P>
             </Section>
 
             <Section title="6) Contact form">
@@ -311,15 +345,41 @@ export default function TermsPage() {
               </P>
             </Section>
 
-            <Section title="7) In-app purchases (possible in the future)">
+            <Section title="7) In-app purchases">
               <P>
-                Currently, the App{" "}
-                <span className="font-bold">does not include in-app purchases</span>. If
-                they are introduced (e.g., ad removal, premium content/packs), they will
-                be processed through the{" "}
-                <span className="font-bold">Apple App Store</span> and/or{" "}
-                <span className="font-bold">Google Play</span> and will be subject to those
-                platforms’ terms and policies (including refunds).
+                The App offers optional one-time purchases, with no subscription: hint
+                packs, ad removal, unlocking all puzzles, and the Premium pack (which
+                includes all of them). The App remains usable for free, without any
+                purchase.
+              </P>
+              <P>
+                Payments are processed exclusively by the{" "}
+                <span className="font-bold">Apple App Store</span> or{" "}
+                <span className="font-bold">Google Play</span>, depending on the store from
+                which you installed the App. We do not receive or store your payment data.
+                Displayed prices include VAT and may differ by country.
+              </P>
+              <P>
+                Products with a permanent effect are tied to your store account, not to
+                the device. If you change phones or reinstall the App, you can reactivate
+                them via Settings → Restore purchases, using the same account. Purchased
+                hints are consumable: they are added to the balance on the current device,
+                do not expire, but once used they cannot be restored.
+              </P>
+              <P>
+                <span className="font-bold">Right of withdrawal.</span> Digital content is
+                delivered to you immediately after payment confirmation. By completing the
+                purchase you expressly request immediate performance and confirm that you
+                lose the legal 14-day right of withdrawal for the part already performed.
+              </P>
+              <P>
+                <span className="font-bold">Refunds.</span> Refund requests are handled
+                according to the policies of the store through which you paid. On Google
+                Play, after 48 hours from purchase, you may contact us directly: we fully
+                refund products with a permanent effect and unconsumed hint packs,
+                requested within 14 days of purchase. We do not refund hints already used
+                in the game. If a purchase is refunded or cancelled, the associated
+                benefit is deactivated in the App.
               </P>
             </Section>
 
