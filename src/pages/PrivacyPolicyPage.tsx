@@ -128,9 +128,12 @@ export default function PrivacyPolicyPage() {
         {lang === "ro" ? (
           <div className="grid gap-6">
             <P>
-              Această Politică de Confidențialitate descrie modul în care aplicația{" "}
-              <span className="font-bold">Lumea integramelor</span> („Aplicația”, „noi”)
-              prelucrează anumite date atunci când o folosești.
+              Această politică de confidențialitate se aplică aplicației mobile{" "}
+              <span className="font-bold">Lumea Integramelor</span> (disponibilă pe
+              Google Play și sub denumirea{" "}
+              <span className="font-bold">Integrame și Rebus în Română</span>). Ea
+              descrie modul în care aplicația („Aplicația”, „noi”) prelucrează anumite
+              date atunci când o folosești.
             </P>
 
             <Section title="1) Operator și contact">
@@ -316,9 +319,12 @@ export default function PrivacyPolicyPage() {
         ) : (
           <div className="grid gap-6">
             <P>
-              This Privacy Policy describes how the{" "}
-              <span className="font-bold">Lumea integramelor</span> mobile application
-              (“the App”, “we”) processes certain data when you use it.
+              This privacy policy applies to the{" "}
+              <span className="font-bold">Lumea Integramelor</span> mobile application
+              (available on Google Play and under the name{" "}
+              <span className="font-bold">Integrame și Rebus în Română</span>). It
+              describes how the application (“the App”, “we”) processes certain data
+              when you use it.
             </P>
 
             <Section title="1) Controller and contact">

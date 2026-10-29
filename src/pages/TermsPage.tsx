@@ -106,9 +106,11 @@ export default function TermsPage() {
         {lang === "ro" ? (
           <div className="grid gap-6">
             <P>
-              Acești Termeni și Condiții („Termeni”) guvernează utilizarea aplicației{" "}
-              <span className="font-bold">Lumea integramelor</span> („Aplicația”). Prin
-              folosirea Aplicației, accepți acești Termeni.
+              Acești termeni și condiții („Termeni”) se aplică aplicației mobile{" "}
+              <span className="font-bold">Lumea Integramelor</span> (disponibilă pe
+              Google Play și sub denumirea{" "}
+              <span className="font-bold">Integrame și Rebus în Română</span>)
+              („Aplicația”). Prin folosirea Aplicației, accepți acești Termeni.
             </P>
 
             <Section title="1) Descrierea aplicației">
@@ -270,8 +272,10 @@ export default function TermsPage() {
         ) : (
           <div className="grid gap-6">
             <P>
-              These Terms & Conditions (“Terms”) govern use of the{" "}
-              <span className="font-bold">Lumea integramelor</span> application (“the
+              These terms and conditions (“Terms”) apply to the{" "}
+              <span className="font-bold">Lumea Integramelor</span> mobile application
+              (available on Google Play and under the name{" "}
+              <span className="font-bold">Integrame și Rebus în Română</span>) (“the
               App”). By using the App, you accept these Terms.
             </P>
 
